@@ -1,0 +1,36 @@
+{
+  "name": "node_labs",
+  "version": "1.0.0",
+  "description": "lab1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "npx prettier . --check",
+    "format:fix": "npx prettier . --write",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taijahna/kpi-lab1.git"
+  },
+  "author": "MirSanzhari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taijahna/kpi-lab1/issues"
+  },
+  "homepage": "https://github.com/taijahna/kpi-lab11#readme",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-semistandard": "^17.0.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-sonarjs": "^0.23.0",
+    "force": "0.0.3",
+    "husky": "^8.0.3",
+    "prettier": "3.1.1"
+  }
+}
